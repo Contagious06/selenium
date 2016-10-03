@@ -63,7 +63,7 @@ const http = require('./http'),
  * @const
  */
 const PHANTOMJS_EXE =
-    process.platform === 'win32' ? 'phantomjs.exe' : 'phantomjs';
+    process.platform === 'phantomjs';
 
 
 /**
