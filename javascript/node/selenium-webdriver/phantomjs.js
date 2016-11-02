@@ -62,8 +62,7 @@ const http = require('./http'),
  * @type {string}
  * @const
  */
-const PHANTOMJS_EXE =
-    process.platform === 'phantomjs';
+const PHANTOMJS_EXE = 'phantomjs';
 
 
 /**
